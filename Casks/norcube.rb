@@ -2,25 +2,25 @@
 cask "norcube" do
   binary "norcube", target: "nrc"
 
-  version "0.21.3"
+  version "0.21.4"
 
   on_macos do
     on_arm do
-      sha256 "ac01a36dece04d112e3ce93c184dad547993a00e7768f834c276799256b67c6d"
+      sha256 "43eca23498829625316702598b9c31a7b733c98f6a7f45cf28b316d89aa055da"
       url "https://github.com/norcubeplatform/cli/releases/download/v#{version}/norcube_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "fee8d7c0bbdf7d065768cf2683556f75509945fb5e5d7dae021d49fda6c9b85b"
+      sha256 "bf9525ebe3be1008a6bdeea0541167da01925dd5894425932179e1031cf58af3"
       url "https://github.com/norcubeplatform/cli/releases/download/v#{version}/norcube_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "fca6f7dbbd945529c5424489f144e01e9ae1699f9057fa5d33fddb0e8093ce33"
+      sha256 "bbbfbe747c1273ca5ce6d470e207b140ea0ebcde83d8fe22efe6c8cd9856293a"
       url "https://github.com/norcubeplatform/cli/releases/download/v#{version}/norcube_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7d165d38f071fb6e5fe8df6613860740c11540c76b938a969dff0f3261b7927f"
+      sha256 "279efeb3845e64a85b95a99489092260cc5b51fbc34a0d618a56a4cf45823b6c"
       url "https://github.com/norcubeplatform/cli/releases/download/v#{version}/norcube_linux_amd64.tar.gz"
     end
   end
